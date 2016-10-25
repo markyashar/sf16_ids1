@@ -1,0 +1,67 @@
+# Virtual Env
+env/
+
+# Working Files - not ready to be pushed
+local/
+local*
+*local*
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+#Ipython Notebook Temp files
+*copy*.ipynb
+untitled*
+untitled*.ipynb
+*Copy*.ipynb
+Untitled*
+Untitled*.ipynb
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OSX Filesystem thing
+.DS_Store
+
+# Ignore Tree dot files
+*.dot
+
+# Ignore Database files
+*.db
+*.sqlite
+
+# Ignore temp files from other editors
+*~
+.#*
+.*.sw?
+.idea/
+*.dpkg-*
+*.exe
+*.ZILESAVE
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C extensions
+*.so
+
+# Installer logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
